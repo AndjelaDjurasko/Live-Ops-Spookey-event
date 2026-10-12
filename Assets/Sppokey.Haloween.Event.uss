@@ -1,0 +1,22 @@
+.font-title {
+}
+
+.font-body {
+    -unity-font: url("project://database/Assets/Halloween%20Spooky.otf?fileID=12800000&guid=1a9189603063c2f4c9e9a0aa9182f749&type=3#Halloween Spooky");
+    color: rgb(255, 253, 225);
+    font-size: 18px;
+}
+
+.unity-button {
+    transition-property: scale;
+    transition-duration: 0.15s;
+    transition-timing-function: ease-out;
+}
+
+.unity-button:hover {
+    scale: 1.05 1.05;
+}
+
+.unity-button:active {
+    scale: 0.95 0.95;
+}
